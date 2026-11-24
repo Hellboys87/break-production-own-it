@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "I deployed my untested fix straight to prod and took checkout down for 40,000 users. My bad.";
+  "I pushed my untested fix straight to prod and killed checkout for 40,000 users. No bug. Just me.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
